@@ -46,14 +46,14 @@ Detalles:
 - El modo demo permite visualizar el comportamiento del modelo ganador
 
 Estructura del proyecto
-Snake_DQN(V3.0)/
-main.py                         # Punto de entrada centralizado
-agent.py                        # Lógica del agente DQN y memoria
-model.py                        # Red neuronal y entrenador
-game.py                         # Entorno Snake con Pygame (renderizable o silencioso)
-metrics.py                      # Visualización de score, promedio y epsilon
-config.py                       # Parámetros globales centralizados
-model/model_IDX_score_X.pth     # Carpeta donde se guardan los modelos entrenados 
+- Snake_DQN(V3.0)/
+- main.py                         # Punto de entrada centralizado
+- agent.py                        # Lógica del agente DQN y memoria
+- model.py                        # Red neuronal y entrenador
+- game.py                         # Entorno Snake con Pygame (renderizable o silencioso)
+- metrics.py                      # Visualización de score, promedio y epsilon
+- config.py                       # Parámetros globales centralizados
+- model/model_IDX_score_X.pth     # Carpeta donde se guardan los modelos entrenados 
 
 Archivos generados
 - model/model_IDX_score_X.pth → Modelo entrenado con score máximo alcanzado
