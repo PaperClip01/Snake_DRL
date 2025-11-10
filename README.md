@@ -15,7 +15,7 @@ Instalación
 
 1. Clonar el repositorio
 
-git clone https://github.com/tu_usuario/Snake_DQN.git
+git clone https://github.com/PaperClip01/Snake_DRL.git
 cd Snake_DQN
 
 2. Crear entorno virtual
