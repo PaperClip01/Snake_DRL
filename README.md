@@ -13,24 +13,24 @@ Objetivos
 
 Instalación
 
-1. Clonar el repositorio
+1) Clonar el repositorio
 
-git clone https://github.com/PaperClip01/Snake_DRL.git
-cd Snake_DQN
+- git clone https://github.com/PaperClip01/Snake_DRL.git
+- cd Snake_DQN
 
-2. Crear entorno virtual
+2) Crear entorno virtual
 
-python -m venv venv
-source venv/bin/activate      # Linux/Mac
-venv\Scripts\activate         # Windows
+- python -m venv venv
+- source venv/bin/activate      # Linux/Mac
+- venv\Scripts\activate         # Windows
 
-3. Instalar dependencias
+3) Instalar dependencias
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
-4. Ejecutar el proyecto
+4) Ejecutar el proyecto
 
-python main.py
+- python main.py
 
 Modos disponibles
 Al iniciar el programa, se te pedirá elegir entre:
@@ -47,20 +47,20 @@ Detalles:
 
 Estructura del proyecto
 Snake_DQN(V3.0)/
-├── main.py                         # Punto de entrada centralizado
-├── agent.py                        # Lógica del agente DQN y memoria
-├── model.py                        # Red neuronal y entrenador
-├── game.py                         # Entorno Snake con Pygame (renderizable o silencioso)
-├── metrics.py                      # Visualización de score, promedio y epsilon
-├── config.py                       # Parámetros globales centralizados
-├── model/                          # Carpeta donde se guardan los modelos entrenados
-│   └── model_IDX_score_X.pth
+main.py                         # Punto de entrada centralizado
+agent.py                        # Lógica del agente DQN y memoria
+model.py                        # Red neuronal y entrenador
+game.py                         # Entorno Snake con Pygame (renderizable o silencioso)
+metrics.py                      # Visualización de score, promedio y epsilon
+config.py                       # Parámetros globales centralizados
+model/model_IDX_score_X.pth     # Carpeta donde se guardan los modelos entrenados 
 
 Archivos generados
 - model/model_IDX_score_X.pth → Modelo entrenado con score máximo alcanzado
 - Visualización en tiempo real del entrenamiento (no se guarda por defecto)
 
-Créditos
+Créditos:
+
 Este proyecto fue desarrollado por Manuel J Palavecino, como parte de la materia Inteligencia Artificial de la Universidad del CEMA. Podés usarlo, modificarlo y compartirlo libremente para fines educativos.
 
 
