@@ -31,13 +31,13 @@ Instalación
 4) Ejecutar el proyecto
 
 - python main.py
-
-Modos disponibles
-Al iniciar el programa, se te pedirá elegir entre:
-1 → Entrenar modelo desde cero
-2 → Continuar entrenamiento con modelo guardado
-3 → Mostrar modelo guardado sin entrenar
-4 → Evaluar todos los modelos guardados y mostrar el mejor
+  
+- Modos disponibles
+- Al iniciar el programa, se te pedirá elegir entre:
+- 1 → Entrenar modelo desde cero
+- 2 → Continuar entrenamiento con modelo guardado
+- 3 → Mostrar modelo guardado sin entrenar
+- 4 → Evaluar todos los modelos guardados y mostrar el mejor
 
 Detalles:
 - Los modelos se guardan automáticamente solo si superan su score anterior
